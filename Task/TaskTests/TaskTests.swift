@@ -29,5 +29,24 @@ class TaskTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func test_HomeApiResponse_ValidReturns() {
+        
+        let viewModel = HomeViewModel()
+        let exceptions = self.expectation(description: "HomeApiResponse")
+        
+        viewModel.getCanadaDetails { result in
+            switch result {
+            case .success(let data):
+                XCTAssertNotNil(data)
+                XCTAssertNotEqual(data.title, "")
+                XCTAssertNotEqual(data.rows.count, 10)
+            case.failure(let error):
+                XCTAssertNil(error)
+            }
+            exceptions.fulfill()
+        }
+        waitForExpectations(timeout: 5.0, handler: nil)
+    }
 
 }

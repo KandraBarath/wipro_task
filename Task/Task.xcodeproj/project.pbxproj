@@ -19,6 +19,7 @@
 		1898A62D286C489E006806F8 /* FitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898A62C286C489E006806F8 /* FitImageView.swift */; };
 		1898A62F286C48CC006806F8 /* HomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898A62E286C48CC006806F8 /* HomeDataModel.swift */; };
 		1898A631286C48E3006806F8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898A630286C48E3006806F8 /* HomeViewModel.swift */; };
+		1898A633286C49D4006806F8 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898A632286C49D4006806F8 /* ListTableViewCell.swift */; };
 		80BAA6BE66D85D6256708F0B /* Pods_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FD33F219A6ED98645638C1 /* Pods_TaskTests.framework */; };
 		BBEE4D335A91E901FB404D77 /* Pods_Task_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74833FB2EB34D1EB2131E29B /* Pods_Task_TaskUITests.framework */; };
 		EB917ECCE65EBF7C1E9CC2D9 /* Pods_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327F0B60F8F89E97BCD4683B /* Pods_Task.framework */; };
@@ -61,6 +62,7 @@
 		1898A62C286C489E006806F8 /* FitImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitImageView.swift; sourceTree = "<group>"; };
 		1898A62E286C48CC006806F8 /* HomeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataModel.swift; sourceTree = "<group>"; };
 		1898A630286C48E3006806F8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1898A632286C49D4006806F8 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		1EDA4C8884280FB911E7972B /* Pods-Task-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Task-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Task-TaskUITests/Pods-Task-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		327F0B60F8F89E97BCD4683B /* Pods_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B0703F633AC8A673F424B17 /* Pods-TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskTests.release.xcconfig"; path = "Target Support Files/Pods-TaskTests/Pods-TaskTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 		1898A623286C47EC006806F8 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				1898A632286C49D4006806F8 /* ListTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				1898A62D286C489E006806F8 /* FitImageView.swift in Sources */,
 				1898A631286C48E3006806F8 /* HomeViewModel.swift in Sources */,
 				1898A627286C4808006806F8 /* APIClient.swift in Sources */,
+				1898A633286C49D4006806F8 /* ListTableViewCell.swift in Sources */,
 				1898A62F286C48CC006806F8 /* HomeDataModel.swift in Sources */,
 				1898A62B286C486C006806F8 /* UIViewController+Extension.swift in Sources */,
 				1898A629286C482C006806F8 /* AppConstant.swift in Sources */,

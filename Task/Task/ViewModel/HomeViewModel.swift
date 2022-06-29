@@ -7,7 +7,11 @@
 
 import UIKit
 
-class HomeViewModel: NSObject {
+protocol HTTPClient {
+    func getCanadaDetails(completion: @escaping (Result<CanadaDataModel,APIServiceError>) -> ())
+}
+
+class HomeViewModel: HTTPClient {
     var dataModel : CanadaDataModel!
 
     /// Method to get the list of items from service url
